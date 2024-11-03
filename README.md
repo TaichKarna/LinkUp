@@ -31,10 +31,11 @@
 - **Socket.IO**: For real-time, bi-directional communication between client and server.
 
 <div align="center">
-  <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.32 (1)-portrait.png" />
-  <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.33-portrait.png" />
-  <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.37-portrait.png" />
+    <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.37-portrait.png" width="150" />
+    <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.32 (1)-portrait.png" width="150" />
+    <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.33-portrait.png" width="150" />
 </div>
+
 
 
 ### Source of design for app: 
