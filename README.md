@@ -30,5 +30,12 @@
 - **Prisma**: ORM for managing database schemas and queries.
 - **Socket.IO**: For real-time, bi-directional communication between client and server.
 
+<div align="center">
+  <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.32 (1)-portrait.png" />
+  <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.33-portrait.png" />
+  <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.37-portrait.png" />
+</div>
+
+
 ### Source of design for app: 
 https://www.figma.com/community/file/980835105690634391/chateo-ui-kit-messenger-app
