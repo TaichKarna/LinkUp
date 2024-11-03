@@ -34,6 +34,9 @@
     <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.37-portrait.png" width="200" />
     <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.32 (1)-portrait.png" width="200" />
     <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.33-portrait.png" width="200" />
+   <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.36-portrait.png" width="200" />
+    <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.40-portrait.png" width="200" />
+    <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.34-portrait.png" width="200" />
 </div>
 
 
