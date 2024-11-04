@@ -1,16 +1,15 @@
-# ChimeIn
+# LinkUp
 
-**ChimeIn** is a real-time messaging application built with **React Native** on client side and **Node.js**, **Express**, **PostgreSQL**, and **Prisma** on the backend. The app supports both group and individual messaging, offline message storage, and real-time updates using **Socket.IO**. It also leverages **React Query** to manage server-side data fetching and caching.
+**LinkUp** is a real-time messaging application built with **React Native** on client side and **Node.js**, **Express**, **PostgreSQL**, and **Prisma** on the backend. The app supports both group and individual messaging, offline message storage, and real-time updates using **Socket.IO**. It also leverages **React Query** to manage server-side data fetching and caching.
 
 <div align="center">
-  <img src="uploads/samsung-galaxys21-black-mockup (1)/WhatsApp Image 2024-10-05 at 17.09.32 (3)-portrait.png" alt="ChimeIn Logo" />
+  <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.32 (3)-portrait.png" width="300"/>
 </div>
 
 ## Features
 
 - **Real-time Messaging**: Instant message updates using WebSockets.
-- **Group and Individual Chats**: Communicate with friends one-on-one or in groups.
-- **Offline Support**: Messages can be viewed and sent even when offline, and syncs when the user reconnects.
+- **Individual Chats**: Communicate with friends one-on-one.
 - **Persistent Message Storage**: Uses PostgreSQL and Prisma for message and user data storage.
 - **User Authentication**: Secure login and user management.
 - **React Query**: Efficient server-side data fetching and state management.
@@ -31,4 +30,16 @@
 - **Prisma**: ORM for managing database schemas and queries.
 - **Socket.IO**: For real-time, bi-directional communication between client and server.
 
+<div align="center">
+    <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.37-portrait.png" width="200" />
+    <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.32 (1)-portrait.png" width="200" />
+    <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.33-portrait.png" width="200" />
+   <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.36-portrait.png" width="200" />
+    <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.40-portrait.png" width="200" />
+    <img src="uploads/mockups/WhatsApp Image 2024-10-05 at 17.09.34-portrait.png" width="200" />
+</div>
 
+
+
+### Source of design for app: 
+https://www.figma.com/community/file/980835105690634391/chateo-ui-kit-messenger-app
