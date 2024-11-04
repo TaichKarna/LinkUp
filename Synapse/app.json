@@ -1,29 +1,29 @@
 {
   "expo": {
-    "name": "Synapse",
-    "slug": "Synapse",
+    "name": "LinkUp",
+    "slug": "LinkUp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/cloud-messaging.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.taichikarna.Synapse",
+      "bundleIdentifier": "com.taichikarna.LinkUp",
       "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/cloud-messaging.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.taichikarna.Synapse"
+      "package": "com.taichikarna.LinkUp"
     },
     "web": {
       "bundler": "metro",
@@ -38,7 +38,7 @@
       [
         "expo-contacts",
         {
-          "contactsPermission": "Allow Synapse to access your contacts"
+          "contactsPermission": "Allow LinkUp to access your contacts"
         }
       ],
       "expo-secure-store"

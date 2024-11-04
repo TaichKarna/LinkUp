@@ -1,15 +1,19 @@
-import { Redirect,  useRootNavigationState } from "expo-router";
+import useAppStore from "@/store/zustand/appStore";
+import { Redirect, useRootNavigationState } from "expo-router";
+import { ActivityIndicator, View } from "react-native";
 
-export default function App(){
+export default function App() {
     const rootNavigation = useRootNavigationState();
-    if(!rootNavigation?.key) return null;
+    const user = useAppStore((state) => state.user);
 
-    const user = false;
+    if (!rootNavigation?.key) {
+        return (
+            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+                <ActivityIndicator size="large" color="#0000ff" />
+            </View>
+        );
+    }
+    console.log(user)
 
-    if(user){
-         return <Redirect href="/home/(tabs)/chats"/>
-    } 
-    
-    return <Redirect href="/home/(tabs)/chats/"/>
-    
+    return user && user.email ? <Redirect href="/home/(tabs)/chats" /> : <Redirect href="/auth/" />;
 }

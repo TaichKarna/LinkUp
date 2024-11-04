@@ -75,7 +75,7 @@ export default function Login() {
                 await saveUserData(data.user)
     
                 Alert.alert("Success", "Login successful!");
-                router.navigate('/home/(tabs)/friends'); 
+                router.navigate('/home/(tabs)/chats'); 
             } catch (error: any) {
                 Alert.alert("Error", error.message);
             }
