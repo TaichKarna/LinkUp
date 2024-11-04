@@ -30,12 +30,17 @@ export const SocketProvider: React.FC<SocketProviderProps> = ({ children }) => {
   useEffect(() => {
     const token = getTokenSync();  
 
-    const newSocket: Socket = io('http://192.168.29.2:3000', {
+    const newSocket: Socket = io('http://192.168.29.208:3000', {
       auth: {
         token: token,  
       },
       autoConnect: true,  
       transports: ['websocket'], 
+      reconnection: true,         // Enable reconnection
+      reconnectionAttempts: 10, // Retry indefinitely
+      reconnectionDelay: 1000,    // Initial delay (in ms) before attempting to reconnect
+      reconnectionDelayMax: 5000, // Max delay (in ms) for retries
+      timeout: 20000,             // Time (in ms) before assuming connection failed
     });
 
     setSocket(newSocket);
